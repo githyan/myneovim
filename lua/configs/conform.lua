@@ -5,6 +5,10 @@ local options = {
     html = { "prettier" },
     python = { "black" },
     nasm = { "asmfmt" },
+    c = { "clangd-format" },
+    cpp = { "clangd-format" },
+    java = { "google-java-format" },
+    go = { "gofumpt" },
   },
 
   -- format_on_save = {
